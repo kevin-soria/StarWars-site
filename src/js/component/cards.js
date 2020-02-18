@@ -15,17 +15,21 @@ export function Cards() {
 						alt=""
 					/>
 					<div className="card-body">
-						<h4 className="card-title">Star Wars - 1977</h4>
+						<h4 className="card-title">A New Hope - 1977</h4>
 						<p className="card-text">
-							Lorem ipsum dolor sit amet, consectetur adipisicing
-							elit. Sapiente esse necessitatibus neque.
+							Luke Skywalker begins a journey that will change the
+							galaxy as he leaves his home planet, meets lifelong
+							friends (Han Solo, Chewbacca, R2D2, C3PO, etc) and
+							family (Leia Organa), battles the evil Empire and
+							learns the ways of the Force. He also destroys the
+							Death Star, thwarting the evil plans of the Empire.
 						</p>
 					</div>
 					<div className="card-footer">
 						<a
 							href="https://en.wikipedia.org/wiki/Star_Wars_(film)"
 							className="btn btn-primary">
-							Find Out More!
+							EXPERIENCE EPISODE IV
 						</a>
 					</div>
 				</div>
@@ -42,16 +46,22 @@ export function Cards() {
 							The Empire Strikes Back - 1980
 						</h4>
 						<p className="card-text">
-							Lorem ipsum dolor sit amet, consectetur adipisicing
-							elit. Explicabo magni sapiente, tempore debitis
-							beatae culpa natus architecto.
+							Three years after the destruction of the Death Star,
+							the Empire has regrouped – with Darth Vader leading
+							the hunt for Luke Skywalker. Luke meets a new
+							mentor, Yoda, and discovers more about his
+							connection to the Force, while Han Solo and Leia
+							Organa are double-crossed by Solo’s friend Lando
+							Calrissian. Luke helps rescue them, though Solo is
+							captured, and Luke finds out that Vader is his
+							father.
 						</p>
 					</div>
 					<div className="card-footer">
 						<a
 							href="https://en.wikipedia.org/wiki/The_Empire_Strikes_Back"
 							className="btn btn-primary">
-							Find Out More!
+							EXPERIENCE EPISODE V
 						</a>
 					</div>
 				</div>
@@ -66,15 +76,19 @@ export function Cards() {
 					<div className="card-body">
 						<h4 className="card-title">The Jedi Last Jedi- 2017</h4>
 						<p className="card-text">
-							Lorem ipsum dolor sit amet, consectetur adipisicing
-							elit. Sapiente esse necessitatibus neque.
+							With the destruction of the Republic, the evil First
+							Order reigns. Supreme Leader Snoke, the latest Sith
+							Lord, looks to crush what’s left of the Resistance.
+							But hope survives: Rey has found Luke Skywalker, a
+							now legendary Jedi Master who can change the tide of
+							war.
 						</p>
 					</div>
 					<div className="card-footer">
 						<a
 							href="https://en.wikipedia.org/wiki/Star_Wars:_The_Last_Jedi"
 							className="btn btn-primary">
-							Find Out More!
+							EXPERIENCE EPISODE VIII
 						</a>
 					</div>
 				</div>
@@ -91,16 +105,19 @@ export function Cards() {
 							The Return Of the Jedi - 1983
 						</h4>
 						<p className="card-text">
-							Lorem ipsum dolor sit amet, consectetur adipisicing
-							elit. Explicabo magni sapiente, tempore debitis
-							beatae culpa natus architecto.
+							Luke Skywalker heads a mission to rescue Han Solo
+							from the clutches of gangster Jabba the Hutt, and
+							faces Darth Vader one last time. Meanwhile, the
+							Rebellion pushes to destroy a second Death Star,
+							with a little help from alien teddy bears called the
+							Ewoks.
 						</p>
 					</div>
 					<div className="card-footer">
 						<a
 							href="https://en.wikipedia.org/wiki/Return_of_the_Jedi"
 							className="btn btn-primary">
-							Find Out More!
+							EXPERIENCE EPISODE VI
 						</a>
 					</div>
 				</div>
