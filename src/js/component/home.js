@@ -13,8 +13,8 @@ export function Home() {
 		<>
 			<Navbar />
 			<Jumbotron />
-			<Footer />
 			<Cards />
+			<Footer />
 		</>
 	);
 }
