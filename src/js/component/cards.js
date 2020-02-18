@@ -10,9 +10,9 @@ export function Cards() {
 			<div className="col-lg-3 col-md-6 mb-4">
 				<div className="card h-100">
 					<img
-						className="card-img-top"
+						className="card-img-top lead-hover-image aligncenter"
 						src="https://upload.wikimedia.org/wikipedia/en/8/87/StarWarsMoviePoster1977.jpg"
-						alt=""
+						alt="image CSS effects and hover tricks"
 					/>
 					<div className="card-body">
 						<h4 className="card-title">A New Hope - 1977</h4>
@@ -37,7 +37,7 @@ export function Cards() {
 			<div className="col-lg-3 col-md-6 mb-4">
 				<div className="card h-100">
 					<img
-						className="card-img-top"
+						className="card-img-top lead-hover-image aligncenter"
 						src="https://upload.wikimedia.org/wikipedia/en/3/3c/SW_-_Empire_Strikes_Back.jpg"
 						alt=""
 					/>
@@ -69,7 +69,7 @@ export function Cards() {
 			<div className="col-lg-3 col-md-6 mb-4">
 				<div className="card h-100">
 					<img
-						className="card-img-top"
+						className="card-img-top lead-hover-image aligncenter"
 						src="https://upload.wikimedia.org/wikipedia/en/7/7f/Star_Wars_The_Last_Jedi.jpg"
 						alt=""
 					/>
@@ -96,7 +96,7 @@ export function Cards() {
 			<div className="col-lg-3 col-md-6 mb-4">
 				<div className="card h-100">
 					<img
-						className="card-img-top"
+						className="card-img-top lead-hover-image aligncenter"
 						src="https://upload.wikimedia.org/wikipedia/en/b/b2/ReturnOfTheJediPoster1983.jpg"
 						alt=""
 					/>

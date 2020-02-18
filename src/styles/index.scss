@@ -12,7 +12,7 @@
 
 */
 body {
-    background-image: url(https://lh3.googleusercontent.com/proxy/kPZGEUiJgOgHMKA4pvnO-U_PX8gW7xoZmisrG9K1rn3wQOM1KdGTnSwNAVny3G6_lJx-i0GM70r-Ys_6knIcIHfhVoXQgIRE95tgBtUl0w)
+    background-image: url(https://lh3.googleusercontent.com/proxy/kPZGEUiJgOgHMKA4pvnO-U_PX8gW7xoZmisrG9K1rn3wQOM1KdGTnSwNAVny3G6_lJx-i0GM70r-Ys_6knIcIHfhVoXQgIRE95tgBtUl0w);
 }
 
 @keyframes crawl {
@@ -24,4 +24,22 @@ body {
     top: -6000px;
     transform: rotateX(25deg) translateZ(-2500px);
   }
+}
+.card-body{
+    background-image: url(https://wallpaperaccess.com/full/353356.jpg) ;
+    background-size: 400px, 200px;
+    background-position: center;
+  color: yellow;
+}
+.btn-primary {
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/mandalorian-baby-yoda-2-1573847849.jpg);
+    background-size: 100%;
+    padding: 1rem;
+}
+.btn{
+        padding: 1rem .5rem;
+}
+
+ .lead-hover-image:hover {
+    filter: drop-shadow(16px 16px 80px red) invert(75%); 
 }
