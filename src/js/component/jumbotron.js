@@ -23,15 +23,13 @@ const starWars = {
 	fontWeight: "600",
 	letterSpacing: "6px",
 	lineHeight: "150%",
-	textAlign: "center",
-	perspective: "400px"
+	textAlign: "center"
 };
 
 const crawl = {
 	position: "relative",
 	top: "-100px",
 	transformOrigin: "50% 100%",
-	position: "relative",
 	animation: "crawl 120s linear"
 };
 
@@ -39,8 +37,13 @@ const crawl = {
 export function Jumbotron() {
 	return (
 		<div className="container">
+			<audio preload="auto" autoPlay>
+				<source
+					src="src/music/Star_Wars_original_opening_crawl_1977.mp3"
+					type="audio/mpeg"
+				/>
+			</audio>
 			<header className="jumbotron my-4" style={jumboStyle}>
-				{/* <div className="fade"> */}
 				<section className="star-wars" style={starWars}>
 					<div className="crawl" style={crawl}>
 						<div className="title">
@@ -67,7 +70,6 @@ export function Jumbotron() {
 						</p>
 					</div>
 				</section>
-				{/* </div> */}
 			</header>
 		</div>
 	);
