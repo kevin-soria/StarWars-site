@@ -1,23 +1,73 @@
 import React from "react";
 
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+
+//Styles
+const jumboStyle = {
+	overflow: "hidden",
+	background: "none",
+	display: "inline-block",
+	backgroundSize: "100%",
+	width: "100%"
+};
+
+const starWars = {
+	marginTop: "5px",
+	display: "flex",
+	justifyContent: "center",
+	height: "300px",
+	perspective: "800px",
+	color: "#feda4a",
+	fontFamily: "'Pathway Gothic One', sans-serif",
+	fontSize: "300%",
+	fontWeight: "600",
+	letterSpacing: "6px",
+	lineHeight: "150%",
+	textAlign: "center",
+	perspective: "400px"
+};
+
+const crawl = {
+	position: "relative",
+	top: "-100px",
+	transformOrigin: "50% 100%",
+	position: "relative",
+	animation: "crawl 120s linear"
+};
 
 //create your first component
 export function Jumbotron() {
 	return (
 		<div className="container">
-			<header className="jumbotron my-4">
-				<h1 className="display-3">A Warm Welcome!</h1>
-				<p className="lead">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-					Ipsa, ipsam, eligendi, in quo sunt possimus non incidunt
-					odit vero aliquid similique quaerat nam nobis illo
-					aspernatur vitae fugiat numquam repellat.
-				</p>
-				<a href="#" className="btn btn-primary btn-lg">
-					Call to action!
-				</a>
+			<header className="jumbotron my-4" style={jumboStyle}>
+				{/* <div className="fade"> */}
+				<section className="star-wars" style={starWars}>
+					<div className="crawl" style={crawl}>
+						<div className="title">
+							<p>Episode IV</p>
+							<h1>A New Hope</h1>
+						</div>
+
+						<p>
+							It is a period of civil war. Rebel spaceships,
+							striking from a hidden base, have won their first
+							victory against the evil Galactic Empire.
+						</p>
+						<p>
+							During the battle, Rebel spies managed to steal
+							secret plans to the Empire’s ultimate weapon, the
+							DEATH STAR, an armored space station with enough
+							power to destroy an entire planet.
+						</p>
+						<p>
+							Pursued by the Empire’s sinister agents, Princess
+							Leia races home aboard her starship, custodian of
+							the stolen plans that can save her people and
+							restore freedom to the galaxy…
+						</p>
+					</div>
+				</section>
+				{/* </div> */}
 			</header>
 		</div>
 	);
