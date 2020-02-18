@@ -4,6 +4,19 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
+const cardBody = {
+	backgroundSize: "400px, 200px",
+	backgroundImage: "url(https://wallpaperaccess.com/full/353356.jpg)",
+	color: "yellow"
+};
+// .card-body{
+//     background-image: url(https://wallpaperaccess.com/full/353356.jpg) ;
+//     background-size: 400px, 200px;
+//     background-position: center;
+//     color: yellow;
+
+// }
+
 export function Cards() {
 	return (
 		<div className="row text-center">
@@ -14,7 +27,7 @@ export function Cards() {
 						src="https://upload.wikimedia.org/wikipedia/en/8/87/StarWarsMoviePoster1977.jpg"
 						alt="image CSS effects and hover tricks"
 					/>
-					<div className="card-body">
+					<div className="card-body" style={cardBody}>
 						<h4 className="card-title">A New Hope - 1977</h4>
 						<p className="card-text">
 							Luke Skywalker begins a journey that will change the
@@ -41,7 +54,7 @@ export function Cards() {
 						src="https://upload.wikimedia.org/wikipedia/en/3/3c/SW_-_Empire_Strikes_Back.jpg"
 						alt=""
 					/>
-					<div className="card-body">
+					<div className="card-body" style={cardBody}>
 						<h4 className="card-title">
 							The Empire Strikes Back - 1980
 						</h4>
@@ -73,7 +86,7 @@ export function Cards() {
 						src="https://upload.wikimedia.org/wikipedia/en/7/7f/Star_Wars_The_Last_Jedi.jpg"
 						alt=""
 					/>
-					<div className="card-body">
+					<div className="card-body" style={cardBody}>
 						<h4 className="card-title">The Jedi Last Jedi- 2017</h4>
 						<p className="card-text">
 							With the destruction of the Republic, the evil First
@@ -100,7 +113,7 @@ export function Cards() {
 						src="https://upload.wikimedia.org/wikipedia/en/b/b2/ReturnOfTheJediPoster1983.jpg"
 						alt=""
 					/>
-					<div className="card-body">
+					<div className="card-body" style={cardBody}>
 						<h4 className="card-title">
 							The Return Of the Jedi - 1983
 						</h4>
