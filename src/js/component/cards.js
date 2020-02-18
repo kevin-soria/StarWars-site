@@ -9,13 +9,6 @@ const cardBody = {
 	backgroundImage: "url(https://wallpaperaccess.com/full/353356.jpg)",
 	color: "yellow"
 };
-// .card-body{
-//     background-image: url(https://wallpaperaccess.com/full/353356.jpg) ;
-//     background-size: 400px, 200px;
-//     background-position: center;
-//     color: yellow;
-
-// }
 
 export function Cards() {
 	return (
