@@ -20,7 +20,7 @@ const starWars = {
 	color: "#feda4a",
 	fontFamily: "'Pathway Gothic One', sans-serif",
 	fontSize: "300%",
-	fontWeight: "600",
+	fontWeight: "500",
 	letterSpacing: "6px",
 	lineHeight: "150%",
 	textAlign: "center"
