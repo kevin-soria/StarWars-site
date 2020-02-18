@@ -15,7 +15,7 @@
 
 
 
-body {
+#body {
     background-image: url(https://lh3.googleusercontent.com/proxy/kPZGEUiJgOgHMKA4pvnO-U_PX8gW7xoZmisrG9K1rn3wQOM1KdGTnSwNAVny3G6_lJx-i0GM70r-Ys_6knIcIHfhVoXQgIRE95tgBtUl0w)
 }
 
@@ -197,7 +197,7 @@ section {
 	float: right;
 }
 
-/* If you don't want the footer to be responsive, remove these media queries */
+/* responsive footer */
 
 @media (max-width: 1000px) {
 
@@ -249,3 +249,5 @@ section {
 		float: none;
 	}
 }
+
+
