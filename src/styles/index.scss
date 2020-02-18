@@ -15,8 +15,9 @@
 
 
 
-#body {
-    background-image: url(https://lh3.googleusercontent.com/proxy/kPZGEUiJgOgHMKA4pvnO-U_PX8gW7xoZmisrG9K1rn3wQOM1KdGTnSwNAVny3G6_lJx-i0GM70r-Ys_6knIcIHfhVoXQgIRE95tgBtUl0w)
+body {
+    // background-image: url(https://lh3.googleusercontent.com/proxy/kPZGEUiJgOgHMKA4pvnO-U_PX8gW7xoZmisrG9K1rn3wQOM1KdGTnSwNAVny3G6_lJx-i0GM70r-Ys_6knIcIHfhVoXQgIRE95tgBtUl0w);
+    background-color: black;
 }
 
 @keyframes crawl {
@@ -29,6 +30,7 @@
     transform: rotateX(25deg) translateZ(-2500px);
   }
 }
+
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
 
 * {
@@ -48,16 +50,15 @@
     
 }
 
-section {
-  width: 100%;
-  display: inline-block;
-  background: #ccc;
-  height: 60vh;
-  text-align: center;
-  font-size: 22px;
-  font-weight: 700;
-  text-decoration: underline;
-}
+// section {
+//   width: 100%;
+//   display: inline-block;
+//   height: 60vh;
+//   text-align: center;
+//   font-size: 22px;
+//   font-weight: 700;
+//   text-decoration: underline;
+// }
 
 
 /* Footer left */

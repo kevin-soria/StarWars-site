@@ -35,16 +35,16 @@ export function Footer() {
 					</p>
 					<div className="footer-icons">
 						<a href="#">
-							<i className="fab fa-facebook-f"></i>
+							<i className="fab fa-facebook-f" />
 						</a>
 						<a href="#">
-							<i className="fab fa-twitter"></i>
+							<i className="fab fa-twitter" />
 						</a>
 						<a href="#">
-							<i className="fab fa-instagram"></i>
+							<i className="fab fa-instagram" />
 						</a>
 						<a href="#">
-							<i className="fab fa-github"></i>
+							<i className="fab fa-github" />
 						</a>
 					</div>
 				</div>
