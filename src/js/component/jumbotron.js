@@ -18,7 +18,6 @@ const starWars = {
 	height: "450px",
 	perspective: "800px",
 	color: "#feda4a",
-	fontFamily: "'Pathway Gothic One', sans-serif",
 	fontSize: "300%",
 	fontWeight: "500",
 	letterSpacing: "6px",
@@ -76,7 +75,7 @@ const returnJedi = {
 export function Jumbotron() {
 	return (
 		<div className="container">
-			<header className="jumbotron my-4" style={jumboStyle}>
+			<header className="jumbotron my-4 jumfont" style={jumboStyle}>
 				<section className="star-wars" style={starWars}>
 					<div className="crawl" style={crawl}>
 						<div className="title">
