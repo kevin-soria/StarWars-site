@@ -5,13 +5,13 @@ import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
 let NavStyles = {
-	background: "blue"
+	color: "white"
 };
 
 export function Navbar() {
 	return (
 		<nav
-			className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
+			className="navbar navbar-expand-lg bg-dark fixed-top"
 			style={NavStyles}>
 			<div className="container">
 				<a className="navbar-brand" href="#">
@@ -37,7 +37,7 @@ export function Navbar() {
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#">
-								Fight
+								Video
 							</a>
 						</li>
 						<li className="nav-item">
