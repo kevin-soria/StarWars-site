@@ -33,6 +33,44 @@ const crawl = {
 	animation: "crawl 120s linear"
 };
 
+const image = {
+	starImage:
+		"https://lh3.googleusercontent.com/proxy/B0uUgcRimAFesSeqmVghxtLlbavurni_rPP33uQfCBK72FWzHtSe-_ws7G9F2d3wT78DacCfJYfZ4nwzhAGa6syPzpmD3mvHkWqGzKl-GGlOxUIjDA7qAHE"
+};
+
+const newHope = {
+	episode: "Episode IV",
+	title: "A NEW HOPE",
+	para1:
+		"It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire.",
+	para2:
+		"During the battle, Rebel spies managed to steal secret plans to the Empire’s ultimate weapon, the DEATH STAR, an armored space station with enough power to destroy an entire planet.",
+	para3:
+		"Pursued by the Empire’s sinister agents, Princess Leia races home aboard her starship, custodian of the stolen plans that can save her people and restore freedom to the galaxy…"
+};
+
+const empire = {
+	episode: "Episode V",
+	title: "THE EMPIRE STRIKES BACK",
+	para1:
+		"It is a dark time for the Rebellion. Although the Death Star has been destroyed, Imperial troops have driven the Rebel forces from their hidden base and pursued them across the galaxy.",
+	para2:
+		"Evading the dreaded Imperial Starfleet, a group of freedom fighters led by Luke Skywalker has established a new secret base on the remote ice world of Hoth.",
+	para3:
+		"The evil lord Darth Vader, obsessed with finding young Skywalker, has dispatched thousands of remote probes into the far reaches of space...."
+};
+
+const returnJedi = {
+	episode: "Episode VI",
+	title: "THE RETURN OF THE JEDI",
+	para1:
+		"Luke Skywalker has returned to his home planet of Tatooine in an attempt to rescue his friend Han Solo from the clutches of the vile gangster Jabba the Hutt.",
+	para2:
+		"Little does Luke know that the GALACTIC EMPIRE has secretly begun construction on a new armored space station even more powerful than the first dreaded Death Star.",
+	para3:
+		"When completed, this ultimate weapon will spell certain doom for the small band of rebels struggling to restore freedom to the galaxy…"
+};
+
 //create your first component
 export function Jumbotron() {
 	return (
@@ -43,7 +81,7 @@ export function Jumbotron() {
 						<div className="title">
 							<br />
 							<br />
-							<img src="https://lh3.googleusercontent.com/proxy/B0uUgcRimAFesSeqmVghxtLlbavurni_rPP33uQfCBK72FWzHtSe-_ws7G9F2d3wT78DacCfJYfZ4nwzhAGa6syPzpmD3mvHkWqGzKl-GGlOxUIjDA7qAHE" />
+							<img src={image.starImage} />
 						</div>
 						{/* Episode IV */}
 						<p>
@@ -53,77 +91,39 @@ export function Jumbotron() {
 							<br />
 							<br />
 							<br />
-							Episode IV
+							{newHope.episode}
 						</p>
-						<h1>A NEW HOPE</h1>
+						<h1>{newHope.title}</h1>
 
+						<p>{newHope.para1}</p>
+						<p>{newHope.para2}</p>
 						<p>
-							It is a period of civil war. Rebel spaceships,
-							striking from a hidden base, have won their first
-							victory against the evil Galactic Empire.
-						</p>
-						<p>
-							During the battle, Rebel spies managed to steal
-							secret plans to the Empire’s ultimate weapon, the
-							DEATH STAR, an armored space station with enough
-							power to destroy an entire planet.
-						</p>
-						<p>
-							Pursued by the Empire’s sinister agents, Princess
-							Leia races home aboard her starship, custodian of
-							the stolen plans that can save her people and
-							restore freedom to the galaxy…
+							{newHope.para3}
 							<br />
 							<br />
 							<br />
 						</p>
 
 						{/* Episode v */}
-						<p>Episode V</p>
-						<h1>THE EMPIRE STRIKES BACK</h1>
+						<p>{empire.episode}</p>
+						<h1>{empire.title}</h1>
 
+						<p>{empire.para1}</p>
+						<p>{empire.para2}</p>
 						<p>
-							It is a dark time for the Rebellion. Although the
-							Death Star has been destroyed, Imperial troops have
-							driven the Rebel forces from their hidden base and
-							pursued them across the galaxy.
-						</p>
-						<p>
-							Evading the dreaded Imperial Starfleet, a group of
-							freedom fighters led by Luke Skywalker has
-							established a new secret base on the remote ice
-							world of Hoth.
-						</p>
-						<p>
-							The evil lord Darth Vader, obsessed with finding
-							young Skywalker, has dispatched thousands of remote
-							probes into the far reaches of space....
+							{empire.para3}
 							<br />
 							<br />
 							<br />
 						</p>
 
 						{/* Episode VI */}
-						<p>Episode VI</p>
-						<h1>THE RETURN OF THE JEDI</h1>
+						<p>{returnJedi.episode}</p>
+						<h1>{returnJedi.title}</h1>
 
-						<p>
-							Luke Skywalker has returned to his home planet of
-							Tatooine in an attempt to rescue his friend Han Solo
-							from the clutches of the vile gangster Jabba the
-							Hutt.
-						</p>
-						<p>
-							Little does Luke know that the GALACTIC EMPIRE has
-							secretly begun construction on a new armored space
-							station even more powerful than the first dreaded
-							Death Star.
-						</p>
-						<p>
-							When completed, this ultimate weapon will spell
-							certain doom for the small band of rebels struggling
-							to restore freedom to the galaxy…
-						</p>
+						<p>{returnJedi.para1}</p>
+						<p>{returnJedi.para2}</p>
+						<p>{returnJedi.para3}</p>
 					</div>
 				</section>
 			</header>
