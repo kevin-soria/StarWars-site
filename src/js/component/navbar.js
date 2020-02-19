@@ -4,12 +4,18 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 
 //create your first component
+let NavStyles = {
+	color: "white"
+};
+
 export function Navbar() {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+		<nav
+			className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
+			style={NavStyles}>
 			<div className="container">
 				<a className="navbar-brand" href="#">
-					Start Bootstrap
+					StarWars
 				</a>
 				<button
 					className="navbar-toggler"
@@ -31,20 +37,28 @@ export function Navbar() {
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#">
-								About
+								Video
 							</a>
 						</li>
 						<li className="nav-item">
 							<a className="nav-link" href="#">
-								Services
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#">
-								Contact
+								Star Club
 							</a>
 						</li>
 					</ul>
+					<form className="form-inline my-2 my-lg-0">
+						<input
+							className="form-control mr-sm-2"
+							type="search"
+							placeholder="Search"
+							aria-label="Search"
+						/>
+						<button
+							className="btn btn-outline-success my-2 my-sm-0"
+							type="submit">
+							Search
+						</button>
+					</form>
 				</div>
 			</div>
 		</nav>

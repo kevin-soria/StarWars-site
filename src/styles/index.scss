@@ -16,7 +16,8 @@
 
 
 body {
-    background-image: url(https://lh3.googleusercontent.com/proxy/kPZGEUiJgOgHMKA4pvnO-U_PX8gW7xoZmisrG9K1rn3wQOM1KdGTnSwNAVny3G6_lJx-i0GM70r-Ys_6knIcIHfhVoXQgIRE95tgBtUl0w);
+    background-image: url(https://s3.amazonaws.com/wp_media-prod/app/uploads/2015/10/21135602/star-wars-space.jpg);
+    // background-color: black;
 }
 
 @keyframes crawl {
@@ -26,7 +27,7 @@ body {
   }
   100% { 
     top: -6000px;
-    transform: rotateX(25deg) translateZ(-2500px);
+    transform: rotateX(25deg) translateZ(-3000px);
   }
 }
 // <------------------------------card------------------------>
@@ -215,7 +216,7 @@ body {
 	float: right;
 }
 
-/* If you don't want the footer to be responsive, remove these media queries */
+/* responsive footer */
 
 @media (max-width: 1000px) {
 
@@ -267,3 +268,5 @@ body {
 		float: none;
 	}
 }
+
+
