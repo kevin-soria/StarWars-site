@@ -11,11 +11,7 @@ let NavStyles = {
 export function Navbar() {
 	return (
 		<nav
-<<<<<<< HEAD
-			className="navbar navbar-expand-lg bg-dark fixed-top"
-=======
-			className="navbar navbar-expand-lg navbar-dark bg-dark"
->>>>>>> a98b47ceeb9495ceefc6b432bdb1aa4a9cd7e64d
+			className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
 			style={NavStyles}>
 			<div className="container">
 				<a className="navbar-brand" href="#">
