@@ -23,7 +23,8 @@ const starWars = {
 	fontWeight: "500",
 	letterSpacing: "6px",
 	lineHeight: "150%",
-	textAlign: "center"
+	textAlign: "center",
+	userSelect: "none"
 };
 
 const crawl = {
