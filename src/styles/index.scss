@@ -215,57 +215,24 @@ body {
 	float: right;
 }
 
-/* responsive footer */
 
-@media (max-width: 1000px) {
 
-	.footer-distributed {
-		font: bold 14px sans-serif;
-	}
-
-	.footer-distributed .footer-company-name{
-		font-size: 12px;
-	}
-
-	.footer-distributed form input,
-	.footer-distributed form textarea{
-		width: 250px;
-	}
-
-	.footer-distributed form button{
-		padding: 10px 35px;
-	}
-
+.col1{
+    background: url("https://clipart.info/images/ccovers/1513370389Star%20Wars%20Logo%20transparent%20PNG.png") no-repeat center;
+    background-size: auto 100%;
+    
+    padding:0px;
+    
 }
 
-@media (max-width: 800px) {
-
-	.footer-distributed{
-		padding: 30px;
-	}
-
-	.footer-distributed .footer-left,
-	.footer-distributed .footer-right{
-		float: none;
-		max-width: 300px;
-		margin: 0 auto;
-	}
-
-	.footer-distributed .footer-left{
-		margin-bottom: 40px;
-	}
-
-	.footer-distributed form{
-		margin-top: 30px;
-	}
-
-	.footer-distributed form{
-		display: block;
-	}
-
-	.footer-distributed form button{
-		float: none;
-	}
+.list-group-item {
+    height: 45px;
 }
 
+.list-group-item {
+border: none;
+background-color: rgba(15, 15, 15, 0.5);
+font-weight: 600px;
+color: plum;
 
+}

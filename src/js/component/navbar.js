@@ -2,65 +2,68 @@ import React from "react";
 
 //include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
+// import { url } from "inspector";
 
 //create your first component
 let NavStyles = {
+	// color: "white",
+	url: "https://www.starwars.com/",
+	urlText: "text",
+	backgroundColor: "rgb(15, 15, 15, .5)",
+	margin: "20px",
+	height: "100px",
 	color: "white"
+};
+
+let IconStyles = {
+	margin: "2px",
+	height: "35px",
+	width: "45px",
+	color: "white",
+	marginTop: "25px"
 };
 
 export function Navbar() {
 	return (
-		<nav
-			className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
-			style={NavStyles}>
-			<div className="container">
-				<a className="navbar-brand" href="#">
-					StarWars
+		<div className="row" style={NavStyles}>
+			<div className="col-4">
+				<a href="https://techcrunch.com/">
+					<i className="fab fa-facebook-square" style={IconStyles}>
+						{" "}
+					</i>
 				</a>
-				<button
-					className="navbar-toggler"
-					type="button"
-					data-toggle="collapse"
-					data-target="#navbarResponsive"
-					aria-controls="navbarResponsive"
-					aria-expanded="false"
-					aria-label="Toggle navigation">
-					<span className="navbar-toggler-icon" />
-				</button>
-				<div className="collapse navbar-collapse" id="navbarResponsive">
-					<ul className="navbar-nav ml-auto">
-						<li className="nav-item active">
-							<a className="nav-link" href="#">
-								Home
-								<span className="sr-only">(current)</span>
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#">
-								Video
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#">
-								Star Club
-							</a>
-						</li>
-					</ul>
-					<form className="form-inline my-2 my-lg-0">
-						<input
-							className="form-control mr-sm-2"
-							type="search"
-							placeholder="Search"
-							aria-label="Search"
-						/>
-						<button
-							className="btn btn-outline-success my-2 my-sm-0"
-							type="submit">
-							Search
-						</button>
-					</form>
-				</div>
+				<a href="https://techcrunch.com/">
+					<i className="fab fa-instagram" style={IconStyles}>
+						{" "}
+					</i>
+				</a>
+				<a href="https://techcrunch.com/">
+					<i className="fab fa-github-square" style={IconStyles}>
+						{" "}
+					</i>
+				</a>
+				<a href="https://techcrunch.com/">
+					<i className="fab fa-twitter-square" style={IconStyles}></i>
+				</a>
 			</div>
-		</nav>
+			<div className="col col1"></div>
+			<div className="col col2">
+				<ul className="list-group list-group-horizontal">
+					<a href="https://www.starwars.com/">
+						{" "}
+						<li className="list-group-item">Home</li>
+					</a>
+					<a href="https://www.starwars.com/">
+						<li className="list-group-item">Club</li>
+					</a>
+					<a href="https://www.starwars.com/">
+						<li className="list-group-item">Fans</li>
+					</a>
+					<a href="https://www.starwars.com/">
+						<li className="list-group-item">New Release</li>
+					</a>
+				</ul>
+			</div>
+		</div>
 	);
 }
